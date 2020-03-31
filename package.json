@@ -20,7 +20,8 @@
         "dev:server": "nodemon --exec babel-node src/server"
     },
     "resolutions": {
-        "acorn": "^7.1.1"
+        "acorn": ">=5.7.4",
+        "with": "^6.0.0"
     },
     "devDependencies": {
         "eslint-config-prettier": "^6.10.1",

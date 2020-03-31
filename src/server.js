@@ -13,4 +13,6 @@ app.get("/", (req, res) => res.render("home"));
 
 const handleListen = () => console.log(`💜 Server http://localhost:${PORT}`);
 
-app.listen(PORT, handleListen);
+const server = app.listen(PORT, handleListen);
+
+const io = socketIO(server);
