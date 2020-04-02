@@ -22,7 +22,8 @@
     },
     "resolutions": {
         "acorn": ">=5.7.4",
-        "with": "^6.0.0"
+        "with": "^6.0.0",
+        "kind-of": "^6.0.3"
     },
     "devDependencies": {
         "eslint-config-prettier": "^6.10.1",
